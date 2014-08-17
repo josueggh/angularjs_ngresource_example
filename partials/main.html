@@ -1,0 +1,11 @@
+<h1>In teathers</h1>
+<ul>
+  <li ng-repeat="movie in movies">
+    <a target="_blank" ng-href="{{movie.Movie.href}}">{{movie.Movie.text}}</a>
+  </li>
+</ul>
+
+<h1>Selection</h1>
+<h3>{{singlemovie.Movie.text}}</h3>
+<p>{{singlemovie.Clasification.title}} , {{singlemovie.Length}}</p>
+<p>{{singlemovie.Synopsis.text}}</p>
